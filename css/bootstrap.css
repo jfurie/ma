@@ -6238,7 +6238,7 @@ a.badge:focus {
 /* Main marketing message and sign up button */
 .jumbotron-landing {
   margin: 50px 5px 5px 5px;
-  width: 300px; 
+  width: 350px; 
   padding: 20px;
   background: url('../img/debut_dark.png');
   opacity: 5;
@@ -6260,6 +6260,10 @@ a.badge:focus {
   padding-right: 5px;
   margin: 0;
 }
+.main-msg{
+  display: inline-block;
+}
+
 
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -6355,12 +6359,21 @@ a.badge:focus {
 .metadata{
   display: inline-block;
   float: right;
-  margin: 0;  
-  text-align: center;
+  margin: 0;
+  line-height: 17px;  
 }
 .metadata > .sidebar-product-price{
-  margin-bottom: 2px;  
+  text-align: center;
+  margin: 0;
 }
+.metadata > .sidebar-product-price > .product-price{
+  font-size: 16px;
+} 
+
+.metadata > .sidebar-product-price > .priceblock-line-through{
+  font-size: 12px;
+} 
+
 .metadata p{
   font-size: 12px;
   color: darkgrey;
@@ -6371,6 +6384,7 @@ a.badge:focus {
   padding: 2px;
   margin: 4px; 
 }
+
 .sort{
   text-transform: capitalize;
 }
@@ -6379,7 +6393,9 @@ a.badge:focus {
   margin: 0;
 }
 
-.filter-pagination{
+.filter > .pagination{
+  display: inline;
+  margin: 0;
   float: right;
 }
 
@@ -6396,9 +6412,10 @@ a.badge:focus {
   text-decoration: none;
 }
 .list-ending-in{
-  font-size: 10px;
-  padding-bottom:2px;
+  font-size: 12px;
+  padding:2px;
   float:left;
+  text-align: center;
 }
 
 
